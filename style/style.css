@@ -548,7 +548,8 @@ color: #510fad;
 
 section.blog
 {
-height: 500px;
+padding-top: 0px;
+padding-bottom: 100px;
 
 background: url(../img/pattern.png) repeat;;
 }
@@ -590,6 +591,8 @@ color: #b8adc8;
 .blog__mini-article
 {
 display: inline-block;
+
+vertical-align: top;
 
 width: 220px;
 margin: 107px -13px 0 29px;
